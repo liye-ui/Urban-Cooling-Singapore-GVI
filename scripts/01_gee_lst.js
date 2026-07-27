@@ -1,5 +1,6 @@
 // ==============================================================================
 // Singapore 2023-2025 (June-August) Landsat 8 LST Median Composite Script
+// I, Li Ye, declare that Gemini 3.1 Pro was employed in July 2026 to write this script.
 // ==============================================================================
 
 // 1. Define the Region of Interest (ROI) for Singapore - covering the island's bounding box
