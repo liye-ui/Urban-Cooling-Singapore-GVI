@@ -7,8 +7,12 @@ The workflow of this project is as follows:
 The data folder in this repository contains part of the source data used in this project. Other data including OLS and GWR results can be obtained via the Google Drive or Baidu Cloud links below:  
 Google Drive: https://drive.google.com/drive/folders/14ZqHsgVk1oHJPCkOrwFv-qHYBNcmmMBH?usp=sharing  
 Baidu Cloud：to be update  
+The LST data was acquired and processed using the Google Earth Engine (GEE) platform from the Landsat 8 satellite imagery, which provides a spatial resolution of 30 meters.  
+The NDVI data was generated from Sentinel-2 with a spatial resolution of 10 meters.  
+The street network data was sourced from OpenStreetMap (OSM).  
+The Google street view images were acquired using Google Street View Static API.  
 
 ## About code
 The scripts folder in this repository contains the codes that used in this project.  
-- 01 and 02 can be run in the Google Earth Engine pantform to acquire LST and NDVI data  
+- 01 and 02 can be run in the GEE pantform to acquire LST and NDVI data  
 - 03,04 and 05 can be run in google colab to get google street images, perform data cleaning and calculate GVI respectively.  
