@@ -1,0 +1,24 @@
+# GSV cleaning
+#
+
+import os
+import cv2
+import numpy as np
+import shutil
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+# ==========================================
+# 1. 文件夹路径配置
+# ==========================================
+# 你的原始 GSV 图片存放路径 (请替换为实际路径，若是Colab云盘请带上 /content/drive/...)
+INPUT_DIR = '/content/drive/MyDrive/NUS_THESIS/GSV_Images_SG/High'
+
+# 预检不合格的“废片”存放路径
+TRASH_DIR = '/content/drive/MyDrive/NUS_THESIS/GSV_Images_SG/Trash_Bin'
+
+# 如果废片文件夹不存在，则自动创建
+if not os.path.exists(TRASH_DIR):
+    os.makedirs(TRASH_DIR)
+    print(f"已创建废片文件夹: {TRASH_DIR}")
